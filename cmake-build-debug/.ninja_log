@@ -1,0 +1,5 @@
+# ninja log v5
+2	548	1643144704013556540	CMakeFiles/untitled.dir/main.cpp.o	693a29e63859a2ce
+2	502	1643143462308639761	CMakeFiles/untitled.dir/Source/Graph.cpp.o	9207d7634cf0a36f
+3	518	1643144703981620399	CMakeFiles/untitled.dir/Source/Graphs/Graph.cpp.o	d81a4f10844cfc53
+548	627	1643144704095635527	untitled	c63838f600ecbe1d

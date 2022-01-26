@@ -1,0 +1,4 @@
+/Users/henrydacres/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/henrydacres/Desktop/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja /Users/henrydacres/CLionProjects/GraphTheory
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/henrydacres/CLionProjects/GraphTheory/cmake-build-debug
