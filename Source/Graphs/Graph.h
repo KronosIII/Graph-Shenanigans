@@ -5,7 +5,6 @@
 #ifndef GRAPHTHEORY_GRAPH_H
 #define GRAPHTHEORY_GRAPH_H
 
-#include <string>
 
 
 /**
@@ -31,12 +30,16 @@ struct ObjectNode {
  */
 
 struct PersonNode : ObjectNode{
+
     int age;                          //@sex Users Age
     std::string  sex;                 //@sex Users Sex
     std::string  gender;              //@gender Users Gender
     std::string  userName;            //@userName Person userName
     std::string  phone;               //@phone Person
     std::string  firstName, lastName; //@firstName Users FirstName | @lastName Users LastName
+
+
+
 
 };
 

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: GraphTheory
 # Configurations: Debug
 # =============================================================================
 
@@ -64,47 +64,57 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target GraphTheory
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for GraphTheory
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_GraphTheory: phony || CMakeFiles/GraphTheory.dir
 
-build CMakeFiles/untitled.dir/main.cpp.o: CXX_COMPILER__untitled_Debug /Users/henrydacres/CLionProjects/GraphTheory/main.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/main.cpp.o.d
+build CMakeFiles/GraphTheory.dir/Source/LocationData/Coordinate.cpp.o: CXX_COMPILER__GraphTheory_Debug /Users/henrydacres/CLionProjects/GraphTheory/Source/LocationData/Coordinate.cpp || cmake_object_order_depends_target_GraphTheory
+  DEP_FILE = CMakeFiles/GraphTheory.dir/Source/LocationData/Coordinate.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  INCLUDES = -I/Users/henrydacres/CLionProjects/GraphTheory/. -I/Users/henrydacres/CLionProjects/GraphTheory/Source -I/Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs
+  OBJECT_DIR = CMakeFiles/GraphTheory.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphTheory.dir/Source/LocationData
 
-build CMakeFiles/untitled.dir/Source/Graphs/Graph.cpp.o: CXX_COMPILER__untitled_Debug /Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs/Graph.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/Source/Graphs/Graph.cpp.o.d
+build CMakeFiles/GraphTheory.dir/Source/Graphs/Graph.cpp.o: CXX_COMPILER__GraphTheory_Debug /Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs/Graph.cpp || cmake_object_order_depends_target_GraphTheory
+  DEP_FILE = CMakeFiles/GraphTheory.dir/Source/Graphs/Graph.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/Source/Graphs
+  INCLUDES = -I/Users/henrydacres/CLionProjects/GraphTheory/. -I/Users/henrydacres/CLionProjects/GraphTheory/Source -I/Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs
+  OBJECT_DIR = CMakeFiles/GraphTheory.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphTheory.dir/Source/Graphs
 
-build CMakeFiles/untitled.dir/Source/Graphs/Distance.cpp.o: CXX_COMPILER__untitled_Debug /Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs/Distance.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/Source/Graphs/Distance.cpp.o.d
+build CMakeFiles/GraphTheory.dir/main.cpp.o: CXX_COMPILER__GraphTheory_Debug /Users/henrydacres/CLionProjects/GraphTheory/main.cpp || cmake_object_order_depends_target_GraphTheory
+  DEP_FILE = CMakeFiles/GraphTheory.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/Source/Graphs
+  INCLUDES = -I/Users/henrydacres/CLionProjects/GraphTheory/. -I/Users/henrydacres/CLionProjects/GraphTheory/Source -I/Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs
+  OBJECT_DIR = CMakeFiles/GraphTheory.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphTheory.dir
+
+build CMakeFiles/GraphTheory.dir/Source/Nodes/DataNodes.cpp.o: CXX_COMPILER__GraphTheory_Debug /Users/henrydacres/CLionProjects/GraphTheory/Source/Nodes/DataNodes.cpp || cmake_object_order_depends_target_GraphTheory
+  DEP_FILE = CMakeFiles/GraphTheory.dir/Source/Nodes/DataNodes.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++14
+  INCLUDES = -I/Users/henrydacres/CLionProjects/GraphTheory/. -I/Users/henrydacres/CLionProjects/GraphTheory/Source -I/Users/henrydacres/CLionProjects/GraphTheory/Source/Graphs
+  OBJECT_DIR = CMakeFiles/GraphTheory.dir
+  OBJECT_FILE_DIR = CMakeFiles/GraphTheory.dir/Source/Nodes
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target GraphTheory
 
 
 #############################################
-# Link the executable untitled
+# Link the executable GraphTheory
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/Source/Graphs/Graph.cpp.o CMakeFiles/untitled.dir/Source/Graphs/Distance.cpp.o
+build GraphTheory: CXX_EXECUTABLE_LINKER__GraphTheory_Debug CMakeFiles/GraphTheory.dir/Source/LocationData/Coordinate.cpp.o CMakeFiles/GraphTheory.dir/Source/Graphs/Graph.cpp.o CMakeFiles/GraphTheory.dir/main.cpp.o CMakeFiles/GraphTheory.dir/Source/Nodes/DataNodes.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
-  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_DIR = CMakeFiles/GraphTheory.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = untitled
-  TARGET_PDB = untitled.dbg
+  TARGET_FILE = GraphTheory
+  TARGET_PDB = GraphTheory.dbg
 
 # =============================================================================
 # Target aliases.
@@ -117,7 +127,7 @@ build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/ma
 #############################################
 # Folder: /Users/henrydacres/CLionProjects/GraphTheory/cmake-build-debug
 
-build all: phony untitled
+build all: phony GraphTheory
 
 # =============================================================================
 # Built-in targets
