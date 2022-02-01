@@ -6,9 +6,14 @@
 #define UNTITLED_DISTANCE_H
 
 
-class Distance {
+    const static double EarthRadius = 0;
+    double HaversineDistance(double x, double y, double z, double w);
+    double VincentyDistance(double x, double y, double z, double w);
+    double SphericalLawofCosines();
+    double Bearing();
+    double Midpoint();
 
-};
+
 
 
 #endif //UNTITLED_DISTANCE_H
